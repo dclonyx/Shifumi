@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightblue;
+}
+/* gestion du texte */ 
+h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+img {
+    width: 50px;
+}
+
+#choix img {
+    width: 100px;
+    height: auto;
+    margin: 0;
+}
+/* gestion du choix */
+
+#choix {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+/* gestion du combat */
+
+#combat {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    margin: 30px;
+}
+
+.cadre {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+#vous {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultat {
+        width: 300px;
+        height: 100px;
+        border: 1px solid black;
+        margin-bottom: 30px;
+    }
+
+button {
+    text-transform: uppercase;
+    margin : 0 20px;
+}
+
+#newGame {
+    margin-bottom: 20px;
+}
+
+.perso {
+    content: url("");
+}
+
+.machine {
+    content: url("");
+}
