@@ -3,21 +3,23 @@
     padding: 0;
 }
 
+html {
+    width: 100%;
+}
 
 body {
     width: 100%;
 }
-
 section {
     width: 100%;
-    margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     background-color: lightblue;
 }
+
 /* gestion du texte */ 
+
 h1 {
     font-size: 3em;
     text-transform: uppercase;
@@ -27,13 +29,19 @@ h2 {
     font-size: 1.2em;
     text-transform: uppercase;
 }
+#vous h2 {
+    color: green;
+}
 
+#ia h2 {
+    color : red;
+}
 img {
     width: 50px;
 }
 
 #choix img {
-    width: 100px;
+    width: 5rem;
     height: auto;
     margin: 0;
 }
@@ -58,6 +66,11 @@ img {
     width: 100px;
     height: 100px;
     border: 1px solid black;
+    margin : 0 1rem;
+}
+
+.cadre img {
+    width: 100%;
 }
 
 #vous {
@@ -75,25 +88,27 @@ img {
 }
 
 #resultat {
-        width: 300px;
+        width: 200px;
         height: 100px;
         border: 1px solid black;
         margin-bottom: 30px;
-    }
+        text-align: center;
+        font-size: 2em;
+        vertical-align: middle;
+        display: table-cell;
+        text-transform: uppercase;
+}
 
 button {
     text-transform: uppercase;
-    margin : 0 20px;
+    margin : 0 .5rem;
 }
 
 #newGame {
-    margin-bottom: 20px;
+    margin: 1rem;
+    padding: .5rem;
 }
 
-.perso {
-    content: url("");
-}
-
-.machine {
-    content: url("");
+#versus {
+   margin-top: 1.4rem;
 }
