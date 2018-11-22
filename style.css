@@ -5,15 +5,20 @@
 
 html {
     width: 100%;
+    height: 100%;
 }
 
 body {
     width: 100%;
+    height: 100vh;
 }
+
 section {
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     background-color: lightblue;
 }
@@ -41,7 +46,7 @@ img {
 }
 
 #choix img {
-    width: 5rem;
+    width: 100%;
     height: auto;
     margin: 0;
 }
@@ -51,6 +56,15 @@ img {
     display: flex;
     justify-content: space-around;
     margin: 30px;
+}
+
+.bouton{
+    width: 5rem;
+    height: 5rem;
+}
+
+.bouton img{
+    width: 100%;
 }
 
 /* gestion du combat */
@@ -63,8 +77,8 @@ img {
 }
 
 .cadre {
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
     border: 1px solid black;
     margin : 0 1rem;
 }
@@ -107,8 +121,29 @@ button {
 #newGame {
     margin: 1rem;
     padding: .5rem;
+    outline-style: none;
 }
 
 #versus {
    margin-top: 1.4rem;
+}
+
+@media screen and (min-width: 1200px){
+    h1{
+        font-size: 5em;
+    }
+    .cadre {
+        width: 12rem;
+        height: 12rem;
+    }
+   
+    #resultat {
+        width: 15rem;
+        height: 10rem;
+    }
+    .bouton{
+        width: 12rem;
+        height: 12rem;
+    }
+    
 }
