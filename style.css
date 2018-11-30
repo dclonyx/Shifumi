@@ -21,6 +21,9 @@ section {
     justify-content: space-around;
     align-items: center;
     background-color: lightblue;
+    background-image: url(./img/ffe459582c8e4dc676d73e4b07dcabc0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* gestion du texte */ 
@@ -28,6 +31,7 @@ section {
 h1 {
     font-size: 3em;
     text-transform: uppercase;
+    margin-top: 8%;
 }
 
 h2 {
@@ -36,13 +40,17 @@ h2 {
 }
 #vous h2 {
     color: green;
+    border-radius: 10px;
 }
 
 #ia h2 {
     color : red;
+    border-radius: 10px;
 }
-img {
+#versus img {
     width: 50px;
+    border-radius: 10px
+
 }
 
 #choix img {
@@ -61,6 +69,7 @@ img {
 .bouton{
     width: 5rem;
     height: 5rem;
+    border-radius: 10px;
 }
 
 .bouton img{
@@ -79,8 +88,9 @@ img {
 .cadre {
     width: 10rem;
     height: 10rem;
-    border: 1px solid black;
     margin : 0 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
 }
 
 .cadre img {
@@ -104,13 +114,13 @@ img {
 #resultat {
         width: 200px;
         height: 100px;
-        border: 1px solid black;
         margin-bottom: 30px;
         text-align: center;
         font-size: 2em;
         vertical-align: middle;
         display: table-cell;
         text-transform: uppercase;
+        border-radius: 10px;
 }
 
 button {
@@ -144,6 +154,9 @@ button {
     .bouton{
         width: 12rem;
         height: 12rem;
+    }
+    #versus img {
+        width: 200px;
     }
     
 }
