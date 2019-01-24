@@ -1,28 +1,12 @@
-// choix du joueur
-// choix de l'ia
-// affichage du joueur
-// affichage de l'ia
-// comparaison des  choix
-// affichage du résultat
-// reset
-
-// variables
-
-var reset;
-
-
-
 function shifumi() {
 
     var player;
     var random;
     var resultat;
 
-
 // choix du joueur
 
 // pierre = 1
-
 
     document.getElementById("pierre").addEventListener("click",
         function () {
@@ -30,7 +14,6 @@ function shifumi() {
             hasard();
             compare();
             document.getElementById("perso").src = "img/pierre1.png"
-            
         }
     );
 
@@ -42,7 +25,6 @@ function shifumi() {
             hasard();
             compare();
             document.getElementById("perso").src = "img/feuille2.png";
-           
         }
     );
 
@@ -54,7 +36,6 @@ function shifumi() {
             hasard();
             compare();
             document.getElementById("perso").src = "img/ciseaux3.png";
-            
         }
     );
 
@@ -123,5 +104,4 @@ function shifumi() {
     }
 }
 
-
-shifumi()
+shifumi();

@@ -145,8 +145,8 @@ button {
         font-size: 5em;
     }
     .cadre {
-        width: 12rem;
-        height: 12rem;
+        width: 10rem;
+        height: 10rem;
     }
    
     #resultat {
@@ -154,11 +154,11 @@ button {
         height: 10rem;
     }
     .bouton{
-        width: 12rem;
-        height: 12rem;
+        width: 10rem;
+        height: 10rem;
     }
     #versus img {
-        width: 200px;
+        width: 150px;
     }
     
 }
